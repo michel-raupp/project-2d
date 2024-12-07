@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .tilt-perspective {
+    transform: perspective(300px) rotateX(40deg);
+    -webkit-transform: perspective(300px) rotateX(40deg);
+    filter: drop-shadow(0 8px 0 rgb(146, 54, 0));
+  }
+}
+
+@layer components {
+  .general-button {
+    @apply bg-slate-700 border-2 border-slate-500;
+  }
+}
+
+* > button {
+  @apply rounded-md  hover:opacity-80 focus:opacity-80 focus:outline-4 focus:outline-white text-white flex items-center justify-center touch-manipulation;
+}
+
+* {
+  @apply select-none;
+}
