@@ -49,7 +49,7 @@ export default function Home() {
 
         <div className="flex w-full gap-2 items-center justify-start md:justify-between flex-wrap">
           <Link
-            href="https://github.com/michel-raupp"
+            href="https://github.com/michel-raupp/project-2d"
             target="_blank"
             rel="noopener noreferrer"
           >
