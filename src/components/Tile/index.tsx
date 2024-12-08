@@ -2,11 +2,9 @@ import React from "react";
 import Image from "next/image";
 
 // Grass
-import Grass1 from "@/assets/tiles/grass/grass_1.png";
-import Grass2 from "@/assets/tiles/grass/grass_2.png";
-import Grass3 from "@/assets/tiles/grass/grass_3.png";
-import Grass4 from "@/assets/tiles/grass/grass_4.png";
-import Grass5 from "@/assets/tiles/grass/grass_5.png";
+import Grass1 from "@/assets/tiles/grass/grass_1.webp";
+import Grass2 from "@/assets/tiles/grass/grass_2.webp";
+import Grass3 from "@/assets/tiles/grass/grass_3.webp";
 
 // Flowers
 import Flowers1 from "@/assets/tiles/flowers/flowers_1.png";
@@ -28,24 +26,24 @@ import Tent8 from "@/assets/tiles/tent/tent_8.png";
 import Tent9 from "@/assets/tiles/tent/tent_9.png";
 
 // Grounds
-import GroundBottom from "@/assets/tiles/ground/ground_bottom.png";
-import GroundBottomLeft from "@/assets/tiles/ground/ground_bottom_left.png";
-import GroundBottomRight from "@/assets/tiles/ground/ground_bottom_right.png";
-import GroundTop from "@/assets/tiles/ground/ground_top.png";
-import GroundTopLeft from "@/assets/tiles/ground/ground_top_left.png";
-import GroundTopRight from "@/assets/tiles/ground/ground_top_right.png";
-import GroundMiddle from "@/assets/tiles/ground/ground_middle.png";
-import GroundMiddleLeft from "@/assets/tiles/ground/ground_middle_left.png";
-import GroundMiddleRight from "@/assets/tiles/ground/ground_middle_right.png";
-import GroundCross from "@/assets/tiles/ground/ground_cross.png";
-import GroundCornerBottomLeft from "@/assets/tiles/ground/ground_corner_bottom_left.png";
-import GroundCornerBottomRight from "@/assets/tiles/ground/ground_corner_bottom_right.png";
-import GroundCornerTopLeft from "@/assets/tiles/ground/ground_corner_top_left.png";
-import GroundCornerTopRight from "@/assets/tiles/ground/ground_corner_top_right.png";
-import GroundCornersLeft from "@/assets/tiles/ground/ground_corners_left.png";
-import GroundCornersRight from "@/assets/tiles/ground/ground_corners_right.png";
-import GroundCornersTop from "@/assets/tiles/ground/ground_corners_top.png";
-import GroundCornersBottom from "@/assets/tiles/ground/ground_corners_bottom.png";
+import GroundBottom from "@/assets/tiles/ground/ground_bottom.webp";
+import GroundBottomLeft from "@/assets/tiles/ground/ground_bottom_left.webp";
+import GroundBottomRight from "@/assets/tiles/ground/ground_bottom_right.webp";
+import GroundTop from "@/assets/tiles/ground/ground_top.webp";
+import GroundTopLeft from "@/assets/tiles/ground/ground_top_left.webp";
+import GroundTopRight from "@/assets/tiles/ground/ground_top_right.webp";
+import GroundMiddle from "@/assets/tiles/ground/ground_middle.webp";
+import GroundMiddleLeft from "@/assets/tiles/ground/ground_middle_left.webp";
+import GroundMiddleRight from "@/assets/tiles/ground/ground_middle_right.webp";
+import GroundCross from "@/assets/tiles/ground/ground_cross.webp";
+import GroundCornerBottomLeft from "@/assets/tiles/ground/ground_corner_bottom_left.webp";
+import GroundCornerBottomRight from "@/assets/tiles/ground/ground_corner_bottom_right.webp";
+import GroundCornerTopLeft from "@/assets/tiles/ground/ground_corner_top_left.webp";
+import GroundCornerTopRight from "@/assets/tiles/ground/ground_corner_top_right.webp";
+import GroundCornersLeft from "@/assets/tiles/ground/ground_corners_left.webp";
+import GroundCornersRight from "@/assets/tiles/ground/ground_corners_right.webp";
+import GroundCornersTop from "@/assets/tiles/ground/ground_corners_top.webp";
+import GroundCornersBottom from "@/assets/tiles/ground/ground_corners_bottom.webp";
 
 // Trees
 import Tree1 from "@/assets/tiles/tree/tree_1.png";
@@ -114,12 +112,6 @@ const Tile = ({ type }: TileProps) => {
       break;
     case TILES_TYPES.GRASS_3:
       bgImage = Grass3;
-      break;
-    case TILES_TYPES.GRASS_4:
-      bgImage = Grass4;
-      break;
-    case TILES_TYPES.GRASS_5:
-      bgImage = Grass5;
       break;
     case TILES_TYPES.FLOWERS_1:
       bgImage = Flowers1;
